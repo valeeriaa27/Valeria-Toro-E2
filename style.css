@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background : #ffffff97;
+}
+
+.container {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #fdfcfcb1; 
+    color:#ccc;
+    background: url("https://cdn.pixabay.com/photo/2022/06/08/05/43/motorbike-7249769_640.jpg");
+
+
+    
+}
+.info{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #dccca392;
+    border-radius: 10px;
+    
+}
+
+.ftestimonio{
+    width: 65%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #dccca392;
+    border-radius: 10px;
+
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: #ccc;
+    text-align: center;
+    padding: 100px 0;
+    background: url("https://cdn.pixabay.com/photo/2022/06/08/05/43/motorbike-7249769_640.jpg");
+    opacity: 0,5px;
+    font-style: impact ;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #F7ECDA;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;   
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.btn:hover {
+    background-color: #0056b3
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.caracteristica {
+    margin-right: 20%; 
+    margin-left: 5%;
+    
+}
+
+.caracteristica h3 {
+    font-size: 1.5em;
+}
+
+.testimonio {
+    background-color:#98918897;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.testimonio p {
+    font-style: italic;
+}
+
+.testimonio cite {
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width:100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+}
+
+footer {
+    background: #dccca392;
+    color: #070707;
+    text-align: center;
+    font-style: Arial, sans-serif ;
+    width: 100%;
+    height: 150px;
+    padding: 100px 0;
+    
+}
+
+footer a{
+    color: #ff0000;
+}
